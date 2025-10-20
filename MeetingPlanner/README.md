@@ -11,14 +11,14 @@ Meeting Planner програмын алдаа илрүүлэх тестүүд б
  Бүтэлгүйтсэн (failed):      4  
  Амжилтын хувь:              91.3%  
 
-Модуль              Амжилтай        Бүтэлгүйтсэн        Нийт
-CalendarTest        25              1                   26
-PersonTest          7               1                   8
-RoomTest            5               0                   5
-OrganizationTest    3               0                   3
-MeetingTest         2               2                   4
-Нийт                42              4                   46
-
+| Модуль | Амжилтай | Бүтэлгүйтсэн | Нийт |
+|--------|----------|-------------|------|
+| CalendarTest | 25 | 1 | 26 |
+| PersonTest | 7 | 1 | 8 |
+| RoomTest | 5 | 0 | 5 |
+| OrganizationTest | 3 | 0 | 3 |
+| MeetingTest | 2 | 2 | 4 |
+| **Нийт** | **42** | **4** | **46** |
 ## Бүтэлгүйтсэн Тестүүд
 1. CalendarTest: testAddMeeting_february29()
 
