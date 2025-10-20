@@ -20,7 +20,7 @@ Meeting Planner програмын алдаа илрүүлэх тестүүд б
 | MeetingTest | 2 | 2 | 4 |
 | **Нийт** | **42** | **4** | **46** |
 ## Бүтэлгүйтсэн Тестүүд
-1. CalendarTest: testAddMeeting_february29()
+**1. CalendarTest: testAddMeeting_february29()**
 
 Алдаа: java.lang.AssertionError: Should throw exception for February 29
 
@@ -42,7 +42,7 @@ if (!isValidDate(mMonth, mDay)) {
     throw new TimeConflictException("Invalid date: " + mMonth + "/" + mDay);
 }
 
-2. PersonTest: testAddMeeting_conflict()
+**2. PersonTest: testAddMeeting_conflict()**
 
 Алдаа: java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because the return value of "...Meeting.getDescription()" is null at Calendar.addMeeting(Calendar.java:123)
 
@@ -63,7 +63,7 @@ if (!isValidDate(mMonth, mDay)) {
     throw new TimeConflictException("Invalid date: " + mMonth + "/" + mDay);
 }
 
-3. RoomTest: testAddMeeting_conflict()
+**3. RoomTest: testAddMeeting_conflict()**
 
 Алдаа: java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because the return value of "...Meeting.getDescription()" is null at Calendar.addMeeting(Calendar.java:123)
 
@@ -88,7 +88,7 @@ public void testAddMeeting_conflict() {
     }
 }
 
-4. PersonTest: testIsBusy_withMeeting()
+**4. PersonTest: testIsBusy_withMeeting()**
 
 Алдаа: java.lang.AssertionError: Should not throw exception
 
